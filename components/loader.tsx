@@ -7,7 +7,7 @@ export const Loader = () => {
         <Image src="/logo.png" alt="logo" fill />
       </div>
 
-      <p className="text-sm text-muted-foreground">Neo is thinking...</p>
+      <p className="text-sm text-muted-foreground">Zeki is Düşünüyor...</p>
     </div>
   );
 };
