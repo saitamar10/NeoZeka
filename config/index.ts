@@ -38,11 +38,11 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Ankush Shah",
-    url: "https://github.com/TheAnkushshah",
+    name: "Saitama",
+    url: "https://saitama.net.tr",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/TheAnkushshah/NeoMind",
+  sourceCode: "https://www.ismetceber.com.tr",
 } as const;
