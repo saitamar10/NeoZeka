@@ -17,28 +17,28 @@ import {
   
   export const TESTIMONIALS = [
     {
-      name: "Himesh",
+      name: "Resim",
       image: "/testimonials/user-1.png",
-      title: "Marketing Specialist",
+      title: "Resim Üret",
       description:
         "This application has significantly boosted our marketing efforts.",
     },
     {
-      name: "Arun",
+      name: "Video",
       image: "/testimonials/user-2.png",
       title: "Student",
       description:
         "As a student, this app has been a lifesaver for organizing my tasks and schedules.",
     },
     {
-      name: "Madhav",
+      name: "Kod",
       image: "/testimonials/user-3.png",
       title: "Entrepreneur",
       description:
         "The efficiency and reliability of this tool are unparalleled. Highly recommended!",
     },
     {
-      name: "Rootvik",
+      name: "Müzik",
       image: "/testimonials/user-4.png",
       title: "Graphic Designer",
       description: "Incredible features and user-friendly design. Love it!",
@@ -47,35 +47,35 @@ import {
   
   export const TOOLS = [
     {
-      label: "Chat with Neo",
+      label: "Zeki ile Sohbet",
       icon: MessageSquare,
       color: "text-violet-500",
       bgColor: "bg-violet-500/10",
       href: "/conversation",
     },
     {
-      label: "Music Generation",
+      label: "Müzik Üret",
       icon: Music,
       color: "text-emerald-500",
       bgColor: "bg-emerald-500/10",
       href: "/music",
     },
     {
-      label: "Image Generation",
+      label: "Resim Üret",
       icon: ImageIcon,
       color: "text-pink-700",
       bgColor: "bg-pink-700/10",
       href: "/image",
     },
     {
-      label: "Video Generation",
+      label: "Video Üret",
       icon: VideoIcon,
       color: "text-orange-700",
       bgColor: "bg-orange-700/10",
       href: "/video",
     },
     {
-      label: "Code Generation",
+      label: "Kod Üret",
       icon: Code,
       color: "text-yellow-500",
       bgColor: "bg-yellow-500/10",
@@ -85,14 +85,14 @@ import {
   
   export const ROUTES = [
     {
-      label: "Dashboard",
+      label: "Anasayfa",
       icon: LayoutDashboard,
       href: "/dashboard",
       color: "text-sky-500",
     },
     ...TOOLS,
     {
-      label: "Settings",
+      label: "Ayarlar",
       icon: Settings,
       href: "/settings",
       color: null,
